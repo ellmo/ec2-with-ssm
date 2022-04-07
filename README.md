@@ -1,4 +1,5 @@
-# Terraform template for a for a minimalistic EC2 setup with SSM enabled
+# ec2-with-ssm
+## Terraform template for a for a minimalistic EC2 setup with SSM enabled
 
 ### Usage:
 With [terraform](https://www.terraform.io/) installed and configured, simply do:
