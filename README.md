@@ -6,6 +6,8 @@ With [terraform](https://www.terraform.io/) installed and configured, simply do:
 1. `terraform init`
 2. `terraform apply`
 3. pass the naming convention for created reources (i.e. "foo" for creating a "foo EC2" instance and a "foo-role" role).
+4. ...
+5. `terraform destroy` – don't forget to clean up after you're done experimenting.
 
 If your AWS profile and credentials are set up to use an admin (or another IAM role with sufficient permissions to create and configure resources), then you won't be needing any changes in the code.
 
