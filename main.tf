@@ -7,7 +7,7 @@ provider "aws" {
   # secret_key =
 }
 
-# variable used for naming of all the related resource
+# Variable used for naming of all the related resource
 variable "resource_name" {
   type        = string
   description = "Common naming scheme for created resources"
@@ -16,7 +16,7 @@ variable "resource_name" {
   # default = "ec2_with_ssm_template"
 }
 
-#
+# All the role/permission making delegated to a separate module.
 module "iam_module" {
   source        = "./iam"
   resource_name = var.resource_name
