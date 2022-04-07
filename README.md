@@ -5,7 +5,7 @@ With [terraform](https://www.terraform.io/) installed and configured, simply do:
 
 1. `terraform init`
 2. `terraform apply`
-3. pass the naming convention for created reources (i.e. "foo" for creating a "foo EC2" instance and a "foo-role" role).
+3. When prompted - pass the naming convention for created reources (i.e. "foo" for creating a "foo EC2" instance and a "foo-role" role).
 4. ...
 5. `terraform destroy` – don't forget to clean up after you're done experimenting.
 
